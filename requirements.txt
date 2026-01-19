@@ -1,0 +1,7 @@
+# AWS ECS Capacity Inventory - Python Dependencies
+
+# AWS SDK for Python
+boto3>=1.34.0
+
+# Botocore (installed automatically with boto3, but listed for reference)
+botocore>=1.34.0

@@ -1,0 +1,32 @@
+
+# AWS profiles file example
+# 
+# This file contains a list of AWS profiles (one per line)
+# to be used by the ecs_cluster_inventory.py script
+#
+# Usage:
+#   python3 ecs_cluster_inventory.py --profiles-file profiles.txt --region us-east-1
+#
+# Empty lines and lines starting with # are ignored
+
+# Development environments
+company-dev
+company-sandbox
+
+# Staging environments
+company-staging
+
+# Pre-production environments
+company-preprod
+
+# Production environments
+company-prod
+
+# Legacy environments (commented - remove after Q2 2026 migration)
+#company-legacy-prod
+#company-old-infrastructure
+
+# Regional accounts (if applicable)
+#company-prod-us-east
+#company-prod-eu-west
+#company-prod-ap-southeast
